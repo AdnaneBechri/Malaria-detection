@@ -15,7 +15,9 @@ Les données que nous avons à disposition sont les images des cellules sangui
 A.
 l'hôpital du Chittagong Medical College au Bangladesh. Ces images ont été étiquetées par un expert de l'unité de recherche “Mahidol-Oxford Tropical Medicine” de Bangkok, en Thaïlande. Au total, 28 558 images de cellules sanguines étiquetées en deux classes égales à savoir : 14 279 cellules saines et 14 279 cellules parasitées. Dans notre cas, l’ensemble des données que nous avons utilisé pour le modèle de classification contient 2 000 exemples divisés également en deux : 1 000 images de cellules labélisées « Uninfected » et 1 000 images de cellules labélisées « parasitized ». Voici un échantillon de deux images étiquetées respectivement “Uninfected” et “Paratized” : 
 Le format des images utilisées est le “Portable Network Graphics” ( PNG ). Les dimensions de ces dernières sont fixées à 128 pixels en hauteur et 128 pixels en largeur.
-Voir le fichier Jupyter notebook pour l'implémentation du modèle.
+Les données dont disponibles sur : https://lhncbc.nlm.nih.gov/publication/pub9932
+
+Voir le fichier Jupyter notebook ci-joint pour l'implémentation du modèle.
 
 # Références :
 [1] Sivaramakrishnan Rajaraman , Sameer K. Antani, Mahdieh Poostchi, Kamolrat Silamut, Md. A. Hossain, Richard J. Maude, Stefan Jaeger et George R. Thoma, publié le 16 avril 2018, PubMed 29682411, PeerJ, Pre-trained convolutional neural networks as feature extractors toward improved malaria parasite detection in thin blood smear images, https://peerj.com/articles/4568/ , consulté le 28 juin 2019.
@@ -26,3 +28,7 @@ Voir le fichier Jupyter notebook pour l'implémentation du modèle.
 
 [4]  Passeport Santé,Le paludisme (malaria), https://www.passeportsante.net/fr/Maux/Problemes/Fiche.asp x?doc=paludisme_pm&fbclid=IwAR3eLD6krroHpewBD-Qh m6m4Q5lK1xl0bIQKu9J_gpwHaFtOyJlBySaRWr0,  consulté le 25 juin 2019.
 SOURCE DE DONNÉES :  L'ensemble des données utilisées lors de la présente étude est disponible sur : https://ceb.nlm.nih.gov/repositories/malaria-datasets/
+
+Copyright : @adnanebechri
+contact : adnanebechri1@gmail.com
+
